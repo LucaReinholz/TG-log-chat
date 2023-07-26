@@ -51,7 +51,7 @@ def main():
 
     choose_path()
 
-    updater = Updater('6340227723:AAGesLETr8EeZEqFSxTuymtFogsC2aHkICY', use_context=True)
+    updater = Updater('BOT_API', use_context=True)
 
     dp = updater.dispatcher
 
@@ -98,7 +98,7 @@ def save_group_chat(update: Update, context: CallbackContext):
 
 def main():
 
-    updater = Updater('6340227723:AAGesLETr8EeZEqFSxTuymtFogsC2aHkICY', use_context=True)
+    updater = Updater('BOT_API', use_context=True)
 
     dp = updater.dispatcher
 
